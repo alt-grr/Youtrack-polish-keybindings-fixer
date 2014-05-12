@@ -9,4 +9,7 @@
 (function () {
 	'use strict';
 
+	var script = document.createElement("script");
+	script.textContent = "$(document).unbind('keydown');";
+	document.body.appendChild(script);
 })();
