@@ -8,7 +8,10 @@
 
 var main = function () {
 	'use strict';
-	$(document).unbind('keydown');
+
+	$(document).delegate('textarea, input[type="text"]', 'keydown keypress', function (event) {
+		event.stopPropagation();
+	});
 };
 
 var script = document.createElement("script");
