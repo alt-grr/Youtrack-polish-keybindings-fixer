@@ -6,10 +6,11 @@
 // @match       http://*.myjetbrains.com/youtrack*
 // ==/UserScript==
 
-(function () {
+var main = function () {
 	'use strict';
+	$(document).unbind('keydown');
+};
 
-	var script = document.createElement("script");
-	script.textContent = "$(document).unbind('keydown');";
-	document.body.appendChild(script);
-})();
+var script = document.createElement("script");
+script.textContent = '(' + main.toString() + ')()';
+document.body.appendChild(script);
