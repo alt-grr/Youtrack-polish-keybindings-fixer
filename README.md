@@ -1,4 +1,4 @@
-Youtrack polish keybindings fixer
+Youtrack polish keybindings fixer [![Status testów dla gałęzi dev](https://travis-ci.org/kuc/Youtrack-polish-keybindings-fixer.svg?branch=dev)](https://travis-ci.org/kuc/Youtrack-polish-keybindings-fixer "Status testów dla gałęzi dev")
 =================================
 
 Naprawia skróty klawiszowe do wstawiania polskich znaków w polach tekstowych Youtrack.
