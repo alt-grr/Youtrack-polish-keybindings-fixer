@@ -2,7 +2,7 @@
 // @name        Youtrack polish keybindings fixer
 // @namespace   myjetbrains.com
 // @description Naprawia skróty klawiszowe do wstawiania polskich znaków w polach tekstowych Youtrack.
-// @version     1.1.0
+// @version     1.1.1
 // @grant       none
 // @match       http://*.myjetbrains.com/youtrack*
 // ==/UserScript==
